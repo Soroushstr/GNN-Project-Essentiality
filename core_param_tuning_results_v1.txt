@@ -1,0 +1,135 @@
+┌── K=2 and d=1
+│   ├── Train on D. melanogaster
+│   │   ├── Default hyperparam
+│   │   │   ├── Balanced400
+│   │   │   │   ├── epoch50=0.11
+│   │   │   │   ├── epoch100=0.29
+│   │   │   │   └── epoch200=0.39
+│   │   │   ├── Balanced400NR
+│   │   │   │   ├── epoch50=0.14
+│   │   │   │   ├── epoch100=0.18
+│   │   │   │   └── epoch200=0.14
+│   │   │   ├── Balanced1000
+│   │   │   │   ├── epoch50=0.06
+│   │   │   │   ├── epoch100=0.16
+│   │   │   │   └── epoch200=0.20
+│   │   │   ├── Balanced1000NR
+│   │   │   │   ├── epoch50=0.13
+│   │   │   │   ├── epoch100=0.33
+│   │   │   │   └── epoch200=0.34
+│   │   │   ├── biased400
+│   │   │   │   ├── epoch50=0.0
+│   │   │   │   ├── epoch100=0.0
+│   │   │   │   └── epoch200=0.0
+│   │   │   ├── biased400NR
+│   │   │   │   ├── epoch50=0.0
+│   │   │   │   ├── epoch100=0.0
+│   │   │   │   └── epoch200=0.20
+│   │   │   ├── biased1000
+│   │   │   │   ├── epoch50=0.0
+│   │   │   │   ├── epoch100=0.03
+│   │   │   │   └── epoch200=0.0
+│   │   │   └── biased1000NR
+│   │   │       ├── epoch50=0.14
+│   │   │       ├── epoch100=0.0
+│   │   │       └── epoch200=0.23
+│   │   └── Tuned hyperparam
+│   │       ├── Balanced400
+│   │       │   ├── epoch50=0.27
+│   │       │   ├── epoch100=0.39
+│   │       │   └── epoch200=0.55
+│   │       ├── Balanced400NR
+│   │       │   ├── epoch50=0.09
+│   │       │   ├── epoch100=0.12
+│   │       │   └── epoch200=0.35
+│   │       ├── Balanced1000
+│   │       │   ├── epoch50=0.21
+│   │       │   ├── epoch100=0.18
+│   │       │   └── epoch200=0.17
+│   │       ├── Balanced1000NR
+│   │       │   ├── epoch50=0.21
+│   │       │   ├── epoch100=0.30
+│   │       │   └── epoch200=0.09
+│   │       ├── biased400
+│   │       │   ├── epoch50=0.02
+│   │       │   ├── epoch100=0.0
+│   │       │   └── epoch200=0.0
+│   │       ├── biased400NR
+│   │       │   ├── epoch50=0.09
+│   │       │   ├── epoch100=0.02
+│   │       │   └── epoch200=0.40
+│   │       ├── biased1000
+│   │       │   ├── epoch50=0.0
+│   │       │   ├── epoch100=0.04
+│   │       │   └── epoch200=0.04
+│   │       └── biased1000NR
+│   │           ├── epoch50=0.24
+│   │           ├── epoch100=0.25
+│   │           └── epoch200=0.13
+│   └── Train on C. elegans
+│       ├── Default hyperparam
+│       │   ├── Balanced400
+│       │   │   ├── epoch50=0.16
+│       │   │   ├── epoch100=0.33
+│       │   │   └── epoch200=0.16
+│       │   ├── Balanced400NR
+│       │   │   ├── epoch50=0.20
+│       │   │   ├── epoch100=0.25
+│       │   │   └── epoch200=0.37
+│       │   ├── Balanced1000
+│       │   │   ├── epoch50=0.16
+│       │   │   ├── epoch100=0.33
+│       │   │   └── epoch200=0.26
+│       │   ├── Balanced1000NR
+│       │   │   ├── epoch50=0.11
+│       │   │   ├── epoch100=0.30
+│       │   │   └── epoch200=0.23
+│       │   ├── biased400
+│       │   │   ├── epoch50=0.42
+│       │   │   ├── epoch100=0.0
+│       │   │   └── epoch200=0.0
+│       │   ├── biased400NR
+│       │   │   ├── epoch50=0.25
+│       │   │   ├── epoch100=0.0
+│       │   │   └── epoch200=0.13
+│       │   ├── biased1000
+│       │   │   ├── epoch50=0.21
+│       │   │   ├── epoch100=0.10
+│       │   │   └── epoch200=0.06
+│       │   └── biased1000NR
+│       │       ├── epoch50=0.12
+│       │       ├── epoch100=0.06
+│       │       └── epoch200=0.08
+│       └── Tuned hyperparam
+│           ├── Balanced400
+│           │   ├── epoch50=0.32
+│           │   ├── epoch100=0.35
+│           │   └── epoch200=0.18
+│           ├── Balanced400NR
+│           │   ├── epoch50=0.22
+│           │   ├── epoch100=0.40
+│           │   └── epoch200=0.37
+│           ├── Balanced1000
+│           │   ├── epoch50=0.28
+│           │   ├── epoch100=0.33
+│           │   └── epoch200=0.32
+│           ├── Balanced1000NR
+│           │   ├── epoch50=0.11
+│           │   ├── epoch100=0.16
+│           │   └── epoch200=0.15
+│           ├── biased400
+│           │   ├── epoch50=0.0
+│           │   ├── epoch100=0.10
+│           │   └── epoch200=0.25
+│           ├── biased400NR
+│           │   ├── epoch50=0.21
+│           │   ├── epoch100=0.20
+│           │   └── epoch200=0.34
+│           ├── biased1000
+│           │   ├── epoch50=0.08
+│           │   ├── epoch100=0.15
+│           │   └── epoch200=0.15
+│           └── biased1000NR
+│               ├── epoch50=0.13
+│               ├── epoch100=0.02
+│               └── epoch200=0.07
